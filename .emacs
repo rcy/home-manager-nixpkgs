@@ -32,6 +32,10 @@
      ""))
  '(package-selected-packages
    '(origami xterm-color graphql-mode org-drill web-mode nix-mode yaml-mode projectile magit use-package))
+ '(rcirc-server-alist
+   '(("irc.libera.chat" :nick "rcy" :port 6697 :user-name "rcy" :password "foobar" :channels
+      ("#emb #rcirc #emacs #djfullmoon")
+      :encryption tls)))
  '(web-mode-code-indent-offset 2)
  '(web-mode-enable-auto-quoting nil)
  '(web-mode-enable-comment-interpolation t)
@@ -139,4 +143,3 @@
 ;;; random keybindings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 (global-set-key (kbd "C-c k") 'comment-region)
-
