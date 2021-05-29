@@ -12,6 +12,7 @@
   home.packages = [
     pkgs.tmux
     pkgs.emacs
+    pkgs.jc
   ];
 
   home.file.".emacs".source = ./.emacs;
